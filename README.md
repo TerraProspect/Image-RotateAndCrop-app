@@ -9,7 +9,7 @@ jQueryRotate is used to rotate the image and JCrop is used to crop the image.
 Installation
 ------------
 
-1) Download and extract, or clone the project.
-2) Download any webserver and put this project folder in it. Eg; I used XAMPP so I put it in htdocs folder
-3) Run the web server and hit localhost\Image-RotateAndCrop-app\index.php in browser.
+1. Download and extract, or clone the project.
+2. Download any webserver and put this project folder in it. Eg; I used XAMPP so I put it in htdocs folder
+3. Run the web server and hit localhost\Image-RotateAndCrop-app\index.php in browser.
 
