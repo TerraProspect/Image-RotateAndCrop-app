@@ -3,6 +3,7 @@ This app uses PHP,JQuery,jQeuryRotate and JCrop libraries.
 
 This app will give you an idea how to use jQueryRotate and JCrop together.
 jQueryRotate is used to rotate the image and JCrop is used to crop the image.
+PHP processes the image. In PHP, we take the co-ordinated passed by the page and crop first and then rotate later.(Check out the first few lines of index.php)
 
 Installation
 ------------
