@@ -1,6 +1,4 @@
 # Image-RotateAndCrop-app
-This app uses jQueryRoate.js and JCrop.js.
-
 This app uses PHP,JQuery,jQeuryRotate and JCrop libraries. 
 
 This app will give you an idea how to use jQueryRotate and JCrop together.
