@@ -25,9 +25,13 @@
 
 				$dst_r = imagerotate($dst_r, -$_POST['d'], 0);
 
-				header('Content-type: image/jpeg');
+				// Uncomment this line if you want to save the file to the server
 				//imagejpeg($dst_r,$src,$jpeg_quality);
+
+				// Comment these two lines if you have uncommented the above line
+				header('Content-type: image/jpeg');
 				imagejpeg($dst_r,null,$jpeg_quality);
+
 				//echo "Image cropped and saved!!";
 				exit;
             }
@@ -99,7 +103,7 @@ else{
 				angle -=90;
 				console.log("rotateLeft");
 				$(".jcrop-holder").rotate(angle);
-				jcrop_api.setOptions({rotate : angle}); 
+				jcrop_api.setOptions({rotate : angle<0? 360+angle:angle }); 
 				if(angle<=-360)
 					angle=0;
 			}
@@ -114,10 +118,10 @@ else{
 			}			
 
 			function updateCoords(c){
-				$('#x').val(c.x) //*wRatio);
-				$('#y').val(c.y) //*hRatio);
-				$('#w').val(c.w) //*wRatio);
-				$('#h').val(c.h) //*hRatio);
+				$('#x').val(c.x) 
+				$('#y').val(c.y) 
+				$('#w').val(c.w) 
+				$('#h').val(c.h) 
 				$('#d').val(angle);
 				console.log(angle);
 			};
@@ -130,8 +134,6 @@ else{
 					reader.onload = function(e){
 						$("#image")
 							.attr("src",e.target.result)
-							//.width(400)
-							//.height(200)
 							.Jcrop({
 								onChange:   updateCoords,
 								onSelect:   updateCoords,
