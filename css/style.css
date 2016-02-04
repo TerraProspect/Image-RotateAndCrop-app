@@ -1,0 +1,33 @@
+  .image-editor{
+    margin: 30%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 40px;
+    overflow: auto;
+    text-align: center;
+    background-color: white;
+  }
+  
+  #image{
+    top: 10px;
+    position: relative;
+  }
+
+  body{
+    background-color: cyan;
+  }
+  
+  .button-group{
+    position: relative;
+    top:20px;
+  }
+  
+  .jcrop-holder{
+    top:30px;
+    margin: auto;
+    background: white;
+  }
+  
+  button{
+    padding: 0px;
+  }
