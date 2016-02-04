@@ -1,5 +1,5 @@
 # Image-RotateAndCrop-app
-This app uses jQueryRoate.js and JCrop.js. For good results, rotate first and crop later. 
+This app uses jQueryRoate.js and JCrop.js.
 
 This app uses PHP,JQuery,jQeuryRotate and JCrop libraries. 
 
