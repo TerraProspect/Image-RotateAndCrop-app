@@ -19,11 +19,11 @@
   
   .button-group{
     position: relative;
-    top:20px;
+    margin-top: 50px;
   }
   
   .jcrop-holder{
-    top:30px;
+    top:40px;
     margin: auto;
     background: white;
   }

@@ -23,7 +23,7 @@
     /**
     * rotateLeft function is used to rotate to left.
     * This rotates the whole div in stead of just image.
-    *
+    * 
     */
     function rotateLeft(){
 
